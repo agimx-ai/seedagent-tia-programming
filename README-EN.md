@@ -79,9 +79,11 @@ The runtime service is paid, but ordinary conversation alone is not billed:
 
 Find **SeedAgent TIA Portal Programming Agent** in WorkBuddy / SkillHub.
 
-Alternatively, paste the following HTTPS link into a new WorkBuddy conversation and ask it to download, verify, and install the package:
+Alternatively, paste the following link into a new WorkBuddy conversation and ask it to download, verify, and install the package:
 
 `https://www.autohub-ai.com/downloads/seedagent/tia-programing/0.9.0/SeedAgent-TIA-Programming-Install-0.9.0-Windows-x64.zip`
+
+> SHA-256 in case you want to verify: 97BD1661503BFFEBEA87F2D53AC99B8A3A5F15B420AA37BA0318318E38A565F1
 
 At the time of publication, the version is 0.9.0. The version number in the URL will change with later updates. The 0.9.0 installer is only the starting point, and we may update the link from time to time.
 
