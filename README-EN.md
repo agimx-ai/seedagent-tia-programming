@@ -49,6 +49,8 @@ Then describe the engineering goal in normal language, for example:
 
 Before saving changes back to a user-owned project, switching away from the active project, closing a project, deleting blocks, running a simulation, or downloading to a physical PLC, the agent explains the impact and obtains the required confirmation.
 
+<img width="2157" height="4213" alt="image" src="https://github.com/user-attachments/assets/b30859a3-2f99-4382-a7fb-573bd26d9169" />
+
 ## Model Guidance
 
 SeedAgent provides the core engineering rules, deterministic tools, and real TIA Portal compilation loop needed to program S7-1200 and S7-1500 PLCs. It deliberately avoids imposing a one-size-fits-all industry template on program structure or engineering standards. Project-specific process knowledge, conventions, and best practices remain under the user's control and are interpreted with the selected model.
