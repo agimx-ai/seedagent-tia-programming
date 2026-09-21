@@ -2,6 +2,8 @@
 
 [English](README-EN.md) Version
 
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/99081a40-984f-43bf-b075-a1b302a0fa8b" />
+
 让用户通过自然语言，在本机或远程工程电脑上完成西门子 TIA Portal 工程编程、编译、归档与经确认的下载。
 
 SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模型接到 TIA Portal Openness 上的演示 Demo，也不依赖模型反复试错或临场拼凑 Openness 自动化逻辑，安装后即可使用。我们把项目生命周期、版本选择、工程机连接、文件传递、编译诊断、收费、确认与安全边界固化为确定性的工具级产品，让用户选择的 Agent 能够理解需求、编写西门子博途程序、管理项目状态并推进任务。
@@ -31,15 +33,13 @@ SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模
 - **连续协作**：读取和导出程序块、比较变更、新增或修改 SCL 块、在明确确认后删除指定块、编译、查看诊断、归档、关闭项目，或仅断开 Agent 控制而保留项目和博途窗口。
 - **项目保护**：内置项目保护机制，能够区分用户原工程、恢复后的工作副本和归档产物；不会静默覆盖、切换、关闭或下载。
 
-<img width="1646" height="1564" alt="image" src="https://github.com/user-attachments/assets/61f15458-85a7-4ffd-9aa4-97ddc247dcea" />
-
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/61f15458-85a7-4ffd-9aa4-97ddc247dcea" />
 
 - **真实编译结果**：由目标工程电脑上的真实 TIA Portal 执行编译，并返回实际的错误、警告和编译产物。
 - **PLCSIM Advanced**：当前支持在既定安全边界内将 S7-1500 项目下载到 PLCSIM Advanced。普通 S7-PLCSIM、在线变量读写和强制变量当前未开放。
 - **真实 PLC 下载**：每次都要明确确认工程电脑、项目、PLC IP、PG/PC 接口和可能影响；用户确认后，可在本次下载过程中继续处理已经授权的下载选项和设备证书信任提示。
 
-<img width="1976" height="1540" alt="image" src="https://github.com/user-attachments/assets/7bbf334d-28c2-4169-8fd0-8770e6e9b4c8" />
-
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/7bbf334d-28c2-4169-8fd0-8770e6e9b4c8" />
 
 - **安装、更新与诊断**：提供控制端、工程端、持久化服务、配对、更新检查、状态检查和维护入口。
 
@@ -59,7 +59,12 @@ SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模
 - “挂载我已经打开的项目，编译并归档；先不要关闭项目。”
 
 涉及保存原工程、替换当前项目、关闭、删除块、仿真或真实 PLC 下载时，智能体会在真正执行前说明影响并取得相应确认。
+
 <img width="2046" height="3357" alt="image" src="https://github.com/user-attachments/assets/26e4ef46-2f9d-4bf3-8a19-9b8bf0e3b928" />
+
+<br>
+
+<img width="3034" height="1814" alt="image" src="https://github.com/user-attachments/assets/48a1c8de-03c3-4276-9f3e-cc543cb22705" />
 
 
 ## 模型建议
