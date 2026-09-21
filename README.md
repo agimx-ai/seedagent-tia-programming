@@ -11,6 +11,8 @@ SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模
 当前适配的 Agent 客户端：腾讯 **WorkBuddy**  
 支付方式：**SkillPay 余额；需要追加授权时，由 WorkBuddy 调起腾讯“AI 专属卡”页面，通过微信支付完成**
 
+
+
 ## 来自真实自控工程实践
 
 本产品的核心并非 fork 或包装某个第三方 GitHub 项目。我们长期面向企业客户提供工业自动化与控制工程服务，拥有自己的自动化控制工程团队。产品来自内部专项探索，并在真实工程需求、工程师日常使用、不同 TIA 版本以及 PLC/PLCSIM Advanced 测试中持续积累和修正。
@@ -19,15 +21,26 @@ SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模
 
 ## 核心能力
 
+
 - **本机与跨机器操作**：WorkBuddy 可以操作本机博途，也可以操作网络可达、已配对的其他工程电脑（含虚拟机）里的博途。
 - **TIA V16～V21**：按工程电脑实际安装与就绪情况选择版本，不用为每个版本维护不同的对话方式。
+ <img width="1999" height="2110" alt="image" src="https://github.com/user-attachments/assets/e49ce33b-eb15-4ba1-8ab5-0af648ca7102" />
+ 
 - **多工程机、多版本会话**：多台工程电脑和不同 TIA 主版本可以分别保持独立的受控项目会话；当前同一工程电脑的同一 TIA 主版本一次只控制一个项目，避免误操作错误工程。
 - **多种项目接入方式**：从零开始描述需求，生成并编译博途工程（目前支持 SCL）；恢复并打开 `.zapNN`；打开工程电脑上的 `.apNN` 原工程；或挂载用户已在博途中打开的项目。
 - **连续协作**：读取和导出程序块、比较变更、新增或修改 SCL 块、在明确确认后删除指定块、编译、查看诊断、归档、关闭项目，或仅断开 Agent 控制而保留项目和博途窗口。
 - **项目保护**：内置项目保护机制，能够区分用户原工程、恢复后的工作副本和归档产物；不会静默覆盖、切换、关闭或下载。
+
+<img width="1646" height="1564" alt="image" src="https://github.com/user-attachments/assets/61f15458-85a7-4ffd-9aa4-97ddc247dcea" />
+
+
 - **真实编译结果**：由目标工程电脑上的真实 TIA Portal 执行编译，并返回实际的错误、警告和编译产物。
 - **PLCSIM Advanced**：当前支持在既定安全边界内将 S7-1500 项目下载到 PLCSIM Advanced。普通 S7-PLCSIM、在线变量读写和强制变量当前未开放。
 - **真实 PLC 下载**：每次都要明确确认工程电脑、项目、PLC IP、PG/PC 接口和可能影响；用户确认后，可在本次下载过程中继续处理已经授权的下载选项和设备证书信任提示。
+
+<img width="1976" height="1540" alt="image" src="https://github.com/user-attachments/assets/7bbf334d-28c2-4169-8fd0-8770e6e9b4c8" />
+
+
 - **安装、更新与诊断**：提供控制端、工程端、持久化服务、配对、更新检查、状态检查和维护入口。
 
 当前主要覆盖 S7-1200、S7-1500 与 SCL。梯形图编写与修改、WinCC Unified、伺服和硬件组态修改，以及通过 OPC UA 自主仿真调试等能力，将在后续版本中逐步支持。
@@ -46,6 +59,8 @@ SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模
 - “挂载我已经打开的项目，编译并归档；先不要关闭项目。”
 
 涉及保存原工程、替换当前项目、关闭、删除块、仿真或真实 PLC 下载时，智能体会在真正执行前说明影响并取得相应确认。
+<img width="2046" height="3357" alt="image" src="https://github.com/user-attachments/assets/26e4ef46-2f9d-4bf3-8a19-9b8bf0e3b928" />
+
 
 ## 模型建议
 
@@ -79,6 +94,8 @@ SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模
 
 `https://www.autohub-ai.com/downloads/seedagent/tia-programing/0.9.0/SeedAgent-TIA-Programming-Install-0.9.0-Windows-x64.zip`
 
+> SHA-256: 97BD1661503BFFEBEA87F2D53AC99B8A3A5F15B420AA37BA0318318E38A565F1
+
 当前发布版本为 0.9.0。后续版本号和下载地址会随发布更新，请以 SkillHub 或官方发布信息为准。
 
 交付包：
@@ -88,7 +105,7 @@ SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模
 
 完整安装后，维护工具保存在安装目录中；删除下载 ZIP 和临时解压目录不会丢失重启与修复入口。
 
-维护工具会连接服务器检查更新并提示后续新版本，由用户自行决定是否安装。
+维护工具会定期（每6小时）连接服务器检查更新并提示后续新版本，由用户自行决定是否安装。
 
 ## 即将陆续上线
 
