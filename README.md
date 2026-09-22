@@ -4,7 +4,7 @@
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/99081a40-984f-43bf-b075-a1b302a0fa8b" />
 
-让用户通过自然语言，在本机或远程工程电脑上完成西门子 TIA Portal 工程编程、编译、归档与经确认的下载。
+通过 SeedAgent 博途（TIA Portal）编程智能体，一套面向 Siemens S7-1200、S7-1500 和 TIA Portal V16–V21 的 AI 工程 Workbuddy 扩展，让用户通过自然语言，在本机或远程工程电脑上完成西门子 TIA Portal 工程编程、编译、归档与经确认的下载。
 
 SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模型接到 TIA Portal Openness 上的演示 Demo，也不依赖模型反复试错或临场拼凑 Openness 自动化逻辑，安装后即可使用。我们把项目生命周期、版本选择、工程机连接、文件传递、编译诊断、收费、确认与安全边界固化为确定性的工具级产品，让用户选择的 Agent 能够理解需求、编写西门子博途程序、管理项目状态并推进任务。
 
@@ -13,7 +13,7 @@ SeedAgent 博途（TIA Portal）编程智能体，不是一个简单地把大模
 当前适配的 Agent 客户端：腾讯 **WorkBuddy**  
 支付方式：**SkillPay 余额；需要追加授权时，由 WorkBuddy 调起腾讯“AI 专属卡”页面，通过微信支付完成**
 
-
+本仓库用于产品介绍、安装入口、版本发布、使用文档和问题反馈。产品不开源，仓库不包含核心源代码。
 
 ## 来自真实自控工程实践
 
