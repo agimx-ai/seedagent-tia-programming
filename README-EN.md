@@ -1,6 +1,8 @@
-# SeedAgent TIA Portal Programming Agent
+# SeedAgent: Siemens TIA Portal AI Programming Agent (S7-1200 / S7-1500)
 
-[中文](README.md)
+> **AI-powered Industrial Automation Assistant for Siemens TIA Portal (V16–V21)**: Natural language SCL code generation, Openness automation, compile error diagnostics, .zap project archiving, and guarded PLC downloads. Adapted for Tencent WorkBuddy.
+
+[中文版 (Chinese)](README.md) | [Support & Community](#support-and-feedback) | [Engineering Scenarios](#typical-engineering-scenarios--capabilities)
 
 Use natural language to develop, compile, archive, and—after explicit confirmation—download Siemens TIA Portal projects from a local PC or a paired engineering workstation.
 
@@ -10,6 +12,23 @@ Current version: **0.9.0**
 Current TIA integration component: **1.6.0**  
 Currently supported AI-agent client: **Tencent WorkBuddy**  
 Payment flow: **SkillPay balance; when additional authorization is required, WorkBuddy opens a WeChat Pay screen labeled “AI Exclusive Card” by Tencent**
+
+---
+
+## Typical Engineering Scenarios & Capabilities
+
+SeedAgent addresses routine, repetitive, and complex tasks faced by automation and electrical controls engineers:
+
+| Scenario Category | Common Engineering Pain Points | SeedAgent Capabilities |
+| :--- | :--- | :--- |
+| **SCL Code Generation** | Motor start/stop, pneumatic cylinder & valve logic, analog scaling (`Norm_X` / `Scale_X`), FIFO queues, PID tuning | Generate standard Siemens SCL structured text from natural language descriptions; automatically create FB, FC, and DB blocks |
+| **Industrial Communication** | Modbus TCP polling, Profinet interaction, custom packet parsing, protocol conversion | Assist in writing communication block logic and data structures, reducing manual boilerplate errors |
+| **TIA Project & Archives** | Opening legacy projects (`.ap16`–`.ap21`), restoring/extracting `.zap16`–`.zap21` archives | Open existing projects, restore archives, and re-archive/export with one click while protecting the original copy |
+| **Compile Diagnostics & Fixes** | SCL syntax errors, data type mismatches, undeclared tags, failed builds | Drive the real TIA Portal compiler on the workstation, parse error logs, and iterate with AI to fix syntax issues |
+| **TIA Openness Automation** | Batch exporting/importing program blocks, project maintenance without writing C# scripts | Stable underlying Openness wrapper with strict safety boundaries; zero scripting required |
+| **Simulation & Guarded Download** | PLCSIM Advanced offline simulation, deployment to physical S7-1200 / S7-1500 PLCs | Support deployment to PLCSIM Advanced for verification; enforce dual-confirmation safeguards for physical PLC downloads |
+
+---
 
 ## Built from Industrial Automation Practice
 
