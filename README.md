@@ -151,7 +151,7 @@ Siemens、SIMATIC、TIA Portal、STEP 7、S7-1200 和 S7-1500 是其各自权利
 
 企业微信用户群：**SeedAgent 博途编程智能体用户群**。欢迎中文用户入群交流使用问题、功能建议和回归结果。
 
-<img width="250" alt="image" src="https://www.autohub-ai.com/downloads/seedagent/assets/wecom-user-group.png" />
+<img width="250" alt="image" src="https://www.autohub-ai.com/downloads/seedagent/assets/wecom-user-group2.png" />
 
 中英文用户也都可以通过本仓库的 GitHub Issues 提交问题、建议和可公开复现的信息，或通过 SkillHub 发布者页面反馈。
 
