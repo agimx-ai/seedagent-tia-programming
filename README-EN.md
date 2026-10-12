@@ -136,7 +136,7 @@ Siemens, SIMATIC, TIA Portal, STEP 7, S7-1200, and S7-1500 are trademarks or pro
 
 Chinese-speaking users may join our official WeCom (WeChat Work) group, **SeedAgent 博途编程智能体用户群**, for product questions, feature suggestions, and regression feedback. WeCom is Tencent's enterprise messaging service and may be less accessible to users outside China.
 
-![WeCom QR code for the SeedAgent TIA Portal Programming Agent user group](https://www.autohub-ai.com/downloads/seedagent/assets/wecom-user-group.png)
+![WeCom QR code for the SeedAgent TIA Portal Programming Agent user group](https://www.autohub-ai.com/downloads/seedagent/assets/wecom-user-group.png?v=20261012)
 
 For international users, GitHub Issues is the recommended support channel. Both English- and Chinese-speaking users may use this repository's Issues for questions, suggestions, and publicly reproducible reports, or contact us through the SkillHub publisher page.
 
