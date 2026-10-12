@@ -4,7 +4,12 @@
 
 [English Version](README-EN.md) | [加入用户群](#支持与反馈) | [典型工程场景](#典型工程场景与能力导览)
 
+<br>
+快速链接 ➡ https://skillhub.cn/skills/org-6ce363wd/seedagent-tia-programming
+<br><br>
+
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/062fe70a-ad8e-4bf2-8e17-b0f2932f8b27" />
+<br><br>
 
 通过 **SeedAgent 西门子博途（TIA Portal / 行业常称“博图”）编程智能体**，一套面向 **Siemens S7-1200、S7-1500 和 TIA Portal V16～V21** 的工控 AI 工程扩展（适配腾讯 WorkBuddy），让自控工程师通过自然语言，在本机或远程工控机/虚拟机上完成西门子 PLC 工程编程、SCL 代码自动生成、编译诊断、工程归档与经确认的 PLC 安全下载。
 
