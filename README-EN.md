@@ -4,6 +4,8 @@
 
 [中文版 (Chinese)](README.md) | [Support & Community](#support-and-feedback) | [Engineering Scenarios](#typical-engineering-scenarios--capabilities)
 
+Quick Link (on `SkillHub`- Chinese only) https://skillhub.cn/skills/org-6ce363wd/seedagent-tia-programming
+
 Use natural language to develop, compile, archive, and—after explicit confirmation—download Siemens TIA Portal projects from a local PC or a paired engineering workstation.
 
 SeedAgent is not a proof of concept that simply wires an LLM to TIA Portal Openness. Nor does it ask the model to discover the API by trial and error or improvise automation logic at runtime. It is ready to use after installation. Project lifecycle management, TIA version selection, workstation connectivity, file transfer, compile diagnostics, billing, confirmations, and safety boundaries are implemented as deterministic, product-grade tools. The user's AI agent can therefore focus on understanding the request, developing the PLC program, tracking project state, and moving the job forward.
